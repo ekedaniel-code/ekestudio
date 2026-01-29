@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EKE STUDIO – WORKS</title>
+
+  <!-- Google Font: Roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background-image: url("background.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.25);
+    }
+
+    .content {
+      position: relative;
+      text-align: center;
+      color: #ffffff;
+      line-height: 1.1;
+    }
+
+    .content h1,
+    .content a {
+      font-size: clamp(2.5rem, 6vw, 5rem);
+      font-weight: 700;
+      letter-spacing: 0.08em;
+    }
+
+    .content a {
+      display: inline-block;
+      color: #ffffff;
+      text-decoration: none;
+      margin-top: 0.2em;
+      transition: opacity 0.3s ease;
+    }
+
+    .content a:hover {
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+
+  <div class="content">
+    <h1>EKE STUDIO</h1>
+    <a
+      href="https://www.dropbox.com/scl/fi/pl2nc72vjn47u415paabe/STUDIO_DANIEL_EKE_WORKS.pdf?rlkey=3n5fbb713ryresblerjfj6fu3&dl=0"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      WORKS
+    </a>
+  </div>
+</body>
+</html>
